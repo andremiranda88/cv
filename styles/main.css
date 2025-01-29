@@ -213,4 +213,27 @@ li{
         border-left: none;
         padding-left: 0;
     }
+
+    .section--page_left{
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        padding: 0;
+    }
+
+    .section--page_right{
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    .section--page_right #qualifications--list {
+        padding: 0;
+    }
+
+    #socials--list{
+        column-gap: 0;
+    }
 }
